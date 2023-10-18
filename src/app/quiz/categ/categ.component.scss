@@ -1,0 +1,43 @@
+.categ {
+    @apply flex flex-col items-center justify-center;
+
+
+    &_form {
+        @apply my-4 flex items-center;
+
+        display: flex;
+        flex-direction: column;
+
+        label {
+            @apply mr-2 text-violet-500 font-bold;
+            font-size: 24px;
+        }
+
+        input {
+            @apply border border-violet-500 px-4 py-2 rounded mr-2;
+        }
+    }
+
+    &_btn {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    &_con {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &_sec {
+        margin-bottom: 30px;
+    }
+
+}

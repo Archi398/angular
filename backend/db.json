@@ -1,0 +1,985 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "categid": 1,
+      "questionLabel": "What is a component in Angular?"
+    },
+    {
+      "id": 2,
+      "categid": 1,
+      "questionLabel": "Explain the purpose of the NgModule in Angular."
+    },
+    {
+      "id": 3,
+      "categid": 1,
+      "questionLabel": "How do you create a new Angular application?"
+    },
+    {
+      "id": 4,
+      "categid": 1,
+      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+    },
+    {
+      "id": 5,
+      "categid": 1,
+      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+    },
+    {
+      "id": 6,
+      "categid": 1,
+      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+    },
+    {
+      "id": 7,
+      "categid": 1,
+      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+    },
+    {
+      "id": 8,
+      "categid": 1,
+      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+    },
+    {
+      "id": 9,
+      "categid": 1,
+      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+    },
+    {
+      "id": 10,
+      "categid": 1,
+      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+    },
+    {
+      "id": 11,
+      "categid": 1,
+      "questionLabel": "How do you communicate between parent and child components in Angular?"
+    },
+    {
+      "id": 12,
+      "categid": 1,
+      "questionLabel": "What is a service in Angular, and when should you use it?"
+    },
+    {
+      "id": 13,
+      "categid": 1,
+      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
+    },
+    {
+      "id": 14,
+      "categid": 1,
+      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
+    },
+    {
+      "id": 15,
+      "categid": 1,
+      "questionLabel": "What is Angular CLI's ng serve command used for?"
+    },
+    {
+      "id": 16,
+      "categid": 1,
+      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
+    },
+    {
+      "id": 17,
+      "categid": 1,
+      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
+    },
+    {
+      "id": 18,
+      "categid": 1,
+      "questionLabel": "How can you handle HTTP requests in Angular?"
+    },
+    {
+      "id": 19,
+      "categid": 1,
+      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
+    },
+    {
+      "id": 20,
+      "categid": 1,
+      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+    },
+    {
+      "id": 21,
+      "categid": 2,
+      "questionLabel": "Quelle est la toute première version de Counter-Strike, sortie en 1999 ?"
+    },
+    {
+      "id": 22,
+      "categid": 2,
+      "questionLabel": "Quel est le nom de l'organisation terroriste fictive dans le jeu ?"
+    },
+    {
+      "id": 23,
+      "categid": 2,
+      "questionLabel": "Quelle carte emblématique est souvent associée à des matchs de compétition dans CS:GO ?"
+    },
+    {
+      "id": 24,
+      "categid": 2,
+      "questionLabel": "Combien de joueurs sont généralement présents dans une équipe de Counter-Strike (à l'exclusion des remplaçants) ?"
+    },
+    {
+      "id": 25,
+      "categid": 2,
+      "questionLabel": "Quelle est l'arme de poing de départ pour les terroristes dans CS:GO ?"
+    },
+    {
+      "id": 26,
+      "categid": 2,
+      "questionLabel": "Quelle est l'arme automatique la plus chère dans le jeu ?"
+    },
+    {
+      "id": 27,
+      "categid": 2,
+      "questionLabel": "Qui est le personnage emblématique du jeu, souvent représenté sur les boîtes et les couvertures ?"
+    },
+    {
+      "id": 28,
+      "categid": 2,
+      "questionLabel": "Quel mode de jeu de Counter-Strike est axé sur la désamorçage de bombes et la protection de sites de bombe ?"
+    },
+    {
+      "id": 29,
+      "categid": 2,
+      "questionLabel": "Quel est le nom du logiciel tiers souvent utilisé pour créer des skins d'armes personnalisés dans CS:GO ?"
+    },
+    {
+      "id": 30,
+      "categid": 3,
+      "questionLabel": "Qui est le champion emblématique de League of Legends ?"
+    },
+    {
+      "id": 31,
+      "categid": 3,
+      "questionLabel": "Quel est le rôle principal de la voie du haut (top lane) dans League of Legends ?"
+    },
+    {
+      "id": 32,
+      "categid": 3,
+      "questionLabel": "Quel est le nom du dragon le plus puissant dans League of Legends ?"
+    },
+    {
+      "id": 33,
+      "categid": 3,
+      "questionLabel": "Combien de champions sont nécessaires pour former une équipe complète dans League of Legends ?"
+    },
+    {
+      "id": 34,
+      "categid": 3,
+      "questionLabel": "Quel est le nom du créateur de League of Legends, qui est également l'un des champions du jeu ?"
+    },
+    {
+      "id": 35,
+      "categid": 3,
+      "questionLabel": "Quel est l'objectif principal dans le mode de jeu 'Arène de combat' (ARAM) ?"
+    },
+    {
+      "id": 36,
+      "categid": 3,
+      "questionLabel": "Comment appelle-t-on la jungle située entre les voies (lanes) dans League of Legends ?"
+    },
+    {
+      "id": 37,
+      "categid": 3,
+      "questionLabel": "Quel est le nom du tournoi annuel de championnat de League of Legends qui couronne le meilleur équipe du monde ?"
+    },
+    {
+      "id": 38,
+      "categid": 3,
+      "questionLabel": "Quel est le champion avec le plus grand nombre de victoires professionnelles en League of Legends ?"
+    }
+  ],
+  "answers": [
+    {
+      "questionId": 1,
+      "answerLabel": "A reusable building block for the user interface",
+      "isCorrect": true
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A style in Angular",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A service for handling HTTP requests",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A routing configuration",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is a component in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is used for data binding in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is a directive in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using pure JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is used for creating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is a routing feature.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is only available for services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "[property] (property binding) is used for creating services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding in Angular is used for defining component styles.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding in Angular is used for defining routes.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding in Angular is used for dependency injection.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI is a component in Angular applications.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI is a directive in Angular applications.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI is a service for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive in Angular is a component.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive in Angular is a service.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive in Angular is a module.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is a library for navigating between views and components.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is used for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is used for data binding in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is used for event binding in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection in Angular is used for data binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "Communication between parent and child components in Angular is not possible.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service in Angular is a type of component.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service in Angular is a type of directive.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service in Angular is a type of module.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive in Angular is used for defining routes.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive in Angular is used for event binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules in Angular are used for data binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules in Angular are used for routing configuration.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules in Angular are used for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Angular's two-way data binding is used for routing configuration.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Angular's two-way data binding is used for dependency injection.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "Angular's trackBy function is used for defining routes.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "Angular's trackBy function is used for event binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "Angular's trackBy function is used for dependency injection.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Angular pipes are used for defining routes.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Angular pipes are used for event binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Angular pipes are used for dependency injection.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading in Angular is a technique for event binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "Counter-Strike 1.6",
+      "isCorrect": true
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "Counter-Strike: Source",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "Counter-Strike 1.3",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "Counter-Strike 1.0",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "Phoenix Connexion",
+      "isCorrect": true
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "Black Hound",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "Red Sabre",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "Shadow Syndicate",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "De_dust2",
+      "isCorrect": true
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Inferno",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Nuke",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "Cobblestone",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "5",
+      "isCorrect": true
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "4",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "6",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "7",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Glock-18",
+      "isCorrect": true
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Desert Eagle",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "USP-S",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "P250",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "AWP",
+      "isCorrect": true
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "M4A1-S",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "AK-47",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "SCAR-20",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "SAS",
+      "isCorrect": true
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "Counter-Terrorist",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "Terrorist",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "Phoenix Connexion",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "Démolition",
+      "isCorrect": true
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "Match à mort",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "Capture de drapeau",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "Course aux armes",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "CS:GO Skin Designer",
+      "isCorrect": true
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "SkinForge",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "CustomArms",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "SkinCraft",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Ashe",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Yasuo",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Garen",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Ryze",
+      "isCorrect": true
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Tuer le dragon",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Contrôler la jungle",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Protéger la base (nexus)",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Défendre la voie du haut (top lane)",
+      "isCorrect": true
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "Dragon infernal",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "Dragon de l'océan",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "Dragon des nuages",
+      "isCorrect": false
+    },
+    {
+      "questionId": 32,
+      "answerLabel": "Dragon ancestral",
+      "isCorrect": true
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "3 champions",
+      "isCorrect": false
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "5 champions",
+      "isCorrect": true
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "7 champions",
+      "isCorrect": false
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "9 champions",
+      "isCorrect": false
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Warwick",
+      "isCorrect": false
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Gragas",
+      "isCorrect": false
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Teemo",
+      "isCorrect": true
+    },
+    {
+      "questionId": 34,
+      "answerLabel": "Kennen",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Tuer le Baron Nashor",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Tuer les tourelles ennemies",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Tuer le champion ennemi le plus puissant",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Éliminer les champions ennemis",
+      "isCorrect": true
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "La jungle profonde",
+      "isCorrect": false
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "La jungle obscure",
+      "isCorrect": false
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "La jungle du dragon",
+      "isCorrect": false
+    },
+    {
+      "questionId": 36,
+      "answerLabel": "La jungle intermédiaire",
+      "isCorrect": true
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "Championnats du monde",
+      "isCorrect": true
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "Ligue des champions",
+      "isCorrect": false
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "Coupe du monde",
+      "isCorrect": false
+    },
+    {
+      "questionId": 37,
+      "answerLabel": "Grand Slam",
+      "isCorrect": false
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "Yasuo",
+      "isCorrect": false
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "Lee Sin",
+      "isCorrect": true
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "Ahri",
+      "isCorrect": false
+    },
+    {
+      "questionId": 38,
+      "answerLabel": "Zed",
+      "isCorrect": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Professeur",
+      "categid": 1
+    },
+    {
+      "id": 2,
+      "name": "Counter Strike",
+      "categid": 2
+    },
+    {
+      "id": 3,
+      "name": "League of Legends",
+      "categid": 3
+    }
+  ]
+}

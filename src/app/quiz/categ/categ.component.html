@@ -1,0 +1,13 @@
+<form action="" class="categ_form">
+  <label for="name">Filter Categories :</label>
+  <span style="color: red; font-size: 10px;">Attention au majuscules</span>
+  <input type="text" id="categ" name="categ" placeholder="Filtrer les catégories" (input)="filterCategChange()"
+    [(ngModel)]="filterCateg">
+  <span>{{ filterCateg }}</span>
+</form>
+<div class="categ_con">
+  <section class="categ_sec" *ngFor="let content of categFilteredContent; let i = index">
+    <h4 class="question_label"><b>Categ {{ i + 1 }} :</b> {{ content?.name }}</h4>
+    <button (click)="navigateToQuiz(content?.categid)" class="categ_btn">Clique ici pour quizzer un max</button>
+  </section>
+</div>
